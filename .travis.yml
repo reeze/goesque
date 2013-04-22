@@ -3,9 +3,9 @@ language: go
 env:
   - NOT_IMPLEMENTED=1
 
-before_script: sh travis/prepare.sh
+before_script: 
 
-script: sh travis/run-test.sh
+script: 
 
 notifications:
   email:
