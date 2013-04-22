@@ -1,0 +1,12 @@
+language: go
+
+env:
+  - NOT_IMPLEMENTED=1
+
+before_script: sh travis/prepare.sh
+
+script: sh travis/run-test.sh
+
+notifications:
+  email:
+    - reeze.xia@gmail.com
